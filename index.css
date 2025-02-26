@@ -1,0 +1,96 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #FAE5D3; /* Light cream background */
+    color: #333; /* Dark text color */
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #8B4513; /* Warm brown background */
+    color: white; /* White text for heading and links */
+    padding: 20px 0;
+    border-bottom: 4px solid #A0522D; /* Adds a thick border at the bottom of the header */
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 2rem; /* Larger font size for the main heading */
+}
+
+nav ul {
+    list-style: none; /* Removes bullet points */
+    padding: 0;
+    display: flex; /* Aligns links horizontally */
+    justify-content: center; /* Centers the links */
+    gap: 20px; /* Adds spacing between links */
+    margin-top: 10px;
+}
+
+nav ul li a {
+    color: white; /* White text for links */
+    text-decoration: none; /* Removes underline from links */
+    font-size: 1rem; /* Standard font size for links */
+    transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+nav ul li a:hover {
+    color: #FFD700; /* Gold color on hover */
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 60px 0;
+    background-color: #FFF5E1; /* Lighter background for contrast */
+    border: 2px solid #8B4513; /* Adds a border around the hero section */
+    border-radius: 10px; /* Rounds the corners of the border */
+    margin: 20px auto; /* Adds spacing around the section */
+}
+
+.hero h2 {
+    font-size: 2.5rem; /* Large font size for the hero heading */
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem; /* Medium font size for the paragraph */
+    margin-bottom: 30px;
+    color: #555; /* Slightly darker text for contrast */
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #8B4513; /* Warm brown background for the button */
+    color: white; /* White text for the button */
+    padding: 10px 20px; /* Padding inside the button */
+    text-decoration: none; /* Removes underline from the link */
+    font-size: 1rem; /* Standard font size for the button text */
+    border-radius: 5px; /* Rounds the corners of the button */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+    border: 2px solid #8B4513; /* Adds a border around the button */
+}
+
+.cta-button:hover {
+    background-color: #A0522D; /* Darker brown on hover */
+    border-color: #A0522D; /* Changes the border color on hover */
+}
+
+/* Footer */
+footer {
+    background-color: #8B4513; /* Warm brown background */
+    color: white; /* White text for footer content */
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    border-top: 4px solid #A0522D; /* Adds a thick border at the top of the footer */
+}
